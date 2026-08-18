@@ -1,0 +1,22 @@
+.Contact_container {
+  margin: 4rem 0;
+  position: relative;
+}
+.Contact_container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.ContactMe_content {
+  display: flex;
+  gap: 3rem;
+}
+@media (max-width: 768px) {
+  .ContactMe_content {
+    flex-direction: column-reverse;
+  }
+  .Contact_container h5 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
