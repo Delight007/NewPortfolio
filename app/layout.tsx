@@ -21,6 +21,10 @@ export const metadata: Metadata = {
     "Portfolio website for Levi Lafiya Gana, a frontend engineer and full-stack developer building modern, responsive web and mobile experiences.",
   keywords: [
     "Levi Lafiya Gana",
+    "Levi Gana",
+    "Levi",
+    "Lafiya",
+    "Gana",
     "Frontend Engineer",
     "Full Stack Developer",
     "Software Engineer",
