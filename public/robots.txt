@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://levilafiya.com/sitemap.xml
+Sitemap: https://llg-porfolio.vercel.app/sitemap.xml
