@@ -19,7 +19,7 @@ export default function Nav() {
     "skills",
     "contact",
   ];
-  const linkRefs = useRef([]);
+  const linkRefs = useRef<(HTMLAnchorElement | null)[]>([]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -92,7 +92,9 @@ export default function Nav() {
             {sectionIds.map((section, idx) => (
               <a
                 key={section}
-                ref={(el) => (linkRefs.current[idx] = el)}
+                ref={(el) => {
+                  linkRefs.current[idx] = el;
+                }}
                 onClick={(e) => {
                   e.preventDefault();
                   smoothScrollToSection(section);
