@@ -177,7 +177,7 @@ export default function Services() {
               className="text-5xl lg:text-8xl font-semibold whitespace-nowrap mr-20
             text-transparent [-webkit-text-stroke:1px_black] dark:[-webkit-text-stroke:1px_white]"
             >
-              More than 3 years of experience →
+              More than 4 years of experience →
             </h1>
 
             {/* duplicate */}
@@ -185,7 +185,7 @@ export default function Services() {
               className="text-5xl lg:text-8xl font-semibold whitespace-nowrap mr-20
             text-transparent [-webkit-text-stroke:1px_black] dark:[-webkit-text-stroke:1px_white]"
             >
-              More than 3 years of experience →
+              More than 4 years of experience →
             </h1>
           </motion.div>
         </div>
